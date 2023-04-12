@@ -2,8 +2,8 @@
   "name": "steffbeckers",
   "version": "1.0.0",
   "license": "MIT",
-  "scripts": {},
   "private": true,
+  "scripts": {},
   "dependencies": {},
   "devDependencies": {
     "@nrwl/nx-cloud": "latest",
