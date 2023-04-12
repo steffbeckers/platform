@@ -1,0 +1,85 @@
+{
+  "extensions": {
+    "recommendations": [
+      "aaron-bond.better-comments",
+      "aljazsim.tsco",
+      "angular.ng-template",
+      "argutec.argutec-azure-repos",
+      "christian-kohler.npm-intellisense",
+      "christian-kohler.path-intellisense",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "editorconfig.editorconfig",
+      "esbenp.prettier-vscode",
+      "gruntfuggly.todo-tree",
+      "nrwl.angular-console",
+      "oderwat.indent-rainbow",
+      "redhat.vscode-yaml",
+      "sallar.json-to-js-object",
+      "streetsidesoftware.code-spell-checker",
+      "tyriar.sort-lines",
+      "usernamehw.errorlens",
+      "visualstudioexptteam.vscodeintellicode",
+      "vscode-icons-team.vscode-icons",
+      "zignd.html-css-class-completion"
+    ],
+    "unwantedRecommendations": [
+      "davidanson.vscode-markdownlint",
+      "donjayamanne.githistory",
+      "eg2.vscode-npm-script",
+      "felipecaputo.git-project-manager",
+      "firefox-devtools.vscode-firefox-debug",
+      "googlecloudtools.cloudcode",
+      "ms-azuretools.vscode-docker",
+      "ms-dotnettools.csharp",
+      "ms-edgedevtools.vscode-edge-devtools",
+      "ms-kubernetes-tools.vscode-kubernetes-tools",
+      "ms-vscode-remote.remote-containers",
+      "ms-vscode.azurecli",
+      "ms-vscode.notepadplusplus-keybindings",
+      "ms-vscode.powershell"
+    ]
+  },
+  "folders": [
+    {
+      "name": "Frontend",
+      "path": "."
+    },
+    {
+      "name": "Localizations",
+      "path": "../backend/src/SteffBeckers.Domain.Shared/Localization"
+    },
+    {
+      "name": "Root",
+      "path": ".."
+    }
+  ],
+  "settings": {
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "prettier.configPath": ".prettierrc",
+    "prettier.printWidth": 100,
+    "prettier.singleQuote": true,
+    "todo-tree.general.rootFolder": "${workspaceFolder}/frontend",
+    "todo-tree.highlights.enabled": false,
+    "todo-tree.tree.showCountsInTree": true,
+    "tsco.addPublicModifierIfMissing": false,
+    "tsco.addRegionCaptionToRegionEnd": false,
+    "tsco.addRegionIndentation": false,
+    "tsco.addRowNumberInRegionName": false,
+    "tsco.organizeOnSave": true,
+    "tsco.useRegions": false
+  }
+}
