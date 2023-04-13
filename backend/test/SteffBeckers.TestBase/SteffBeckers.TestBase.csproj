@@ -3,15 +3,11 @@
   <Import Project="..\..\common.props" />
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
     <RootNamespace>SteffBeckers</RootNamespace>
+    <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Volo.Abp.TestBase" Version="7.1.1" />
-    <PackageReference Include="Volo.Abp.Autofac" Version="7.1.1" />
-    <PackageReference Include="Volo.Abp.Authorization" Version="7.1.1" />
     <ProjectReference Include="..\..\src\SteffBeckers.Domain\SteffBeckers.Domain.csproj" />
   </ItemGroup>
 
@@ -23,6 +19,9 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Shouldly" Version="4.1.0" />
+    <PackageReference Include="Volo.Abp.TestBase" Version="7.1.1" />
+    <PackageReference Include="Volo.Abp.Autofac" Version="7.1.1" />
+    <PackageReference Include="Volo.Abp.Authorization" Version="7.1.1" />
     <PackageReference Include="xunit" Version="2.4.1" />
     <PackageReference Include="xunit.extensibility.execution" Version="2.4.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5" />
