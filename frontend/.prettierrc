@@ -2,13 +2,7 @@
   "arrowParens": "avoid",
   "bracketSameLine": true,
   "htmlWhitespaceSensitivity": "ignore",
-  "importOrder": [
-    "^@core/(.*)$",
-    "^@server/(.*)$",
-    "^@ui/(.*)$",
-    "^@fuzed/(.*)$",
-    "^[./]"
-  ],
+  "importOrder": ["^@steffbeckers/(.*)$", "^[./]"],
   "importOrderCaseInsensitive": true,
   "importOrderParserPlugins": ["typescript", "decorators-legacy"],
   "importOrderSeparation": true,
